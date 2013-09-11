@@ -1,0 +1,61 @@
+﻿<DOCTYPE! HTML>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="estilos/register.css">
+<meta charset="utf-8">
+<script type="text/javascript" src="efectos/contra.js"></script>
+<!--	<script type="text/javascript" src="efectos/jquery.js"></script>
+	$(document).ready(function(){
+		alert("Hola Jquery si funciona");
+	});
+	</script>-->
+	<title>Registro</title>
+</head>
+<body>
+	<header><div id="Title"><form action="#" method="#"><h1 class="Alinear">REGISTRO</h1></form></div></header>
+	<div id="Principal">
+		<form action="#" method="#">
+			<table id="Tabla">
+			<tr>
+				<td><h2 class="indicator">Nombre*:</h2></td>
+				<td><input type="text" name="username" id="username" class="txtbx" placeholder ="Nombre del Administrador" onblur="vacio();"</td>
+			</tr>
+			<tr>
+				<td><h2 class="indicator">Usuario*:</h2></td>
+				<td><input type="text" name="user" id="user" class="txtbx" placeholder="User" onblur="vacio1();"></td>
+			</tr>
+			<tr>
+				<td><h2 class="indicator">Contraseña*:</h2></td>
+				<td><input type="password" name="password" id="password" class="txtbx" placeholder="Password" onblur="validar();"></td>
+			</tr>
+			<tr>
+				<td><h2 class="indicator">Repetir Contraseña*:</h2></td>
+				<td><input type="password" name="password2" id="password2" class="txtbx" placeholder="Repeat Password" onblur="val();"><td>
+			</tr>
+			<tr>
+				<td><h2 class="indicator">E-mail*:</h2></td>
+				<td><input type="text" name="correo" id"correo" class="txtbx" placeholder="nombre.123@mail.com" onblur="vacio2();"></td>
+			</tr>
+			<tr>
+				<td><h2 class="indicator">Facebook:</h2></td>
+				<td><input type="text" name="facebook" class="txtbx" placeholder="www.facebook.com/ejemplo"></td>
+			</tr>
+			<tr>
+				<td><h2 class="indicator">Twitter:</h2></td>
+				<td><input type="text" name="twitter" class="txtbx" placeholder="www.twitter.com/ejemplo"></td>
+			</tr>
+			<tr>
+				<td><br><h2 class="indicator">Foto de perfil*</h2></td>
+			</tr>
+			</table>
+			<img id="Imagen" src="images/userimg.jpg">
+			<input type="file" id="Selec">
+		<input type="submit" id="bnt_aceptar" class="txtbtn" value="Guardar" onClick="location.href='html/Login.html'"> 
+		</form>
+		</table>
+
+	</div>
+</body>
+
+
+</html>

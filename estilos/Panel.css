@@ -1,0 +1,419 @@
+*{ margin: 0; padding: 0;}
+body
+{
+	background: url(../images/dark_wood.png);
+}
+#titulo
+{
+	font-family: aharoni;
+	font-weight: bold;
+	color: white;
+	font-size:2em;
+	margin-top: 1em;
+	margin-left:  auto;
+	margin-right: auto;
+	width: 40em;
+	height: 4em;
+	background:url(../images/grey_wash_wall.png); 
+	border-radius: 5px;
+}
+#panel
+{
+	margin-top: 10em;
+	margin-left:  7em;
+	margin-right: 7em;
+	width: 18em;
+	height: 40em;
+	background: url(../images/grey_wash_wall.png); 
+	border-radius: 1em;
+}
+.panel_admin
+{
+	margin-left: 4em;
+	margin-top: 1em;
+	font-family: aharoni;
+	font-weight: bold;
+	color: white;
+}
+/*BOTONES DEL PANEL*/
+#b-Admin
+{
+	
+	margin-left:90px;
+	width: 140px;
+	padding: 25px;
+	color: blue;
+	background-color: gray;
+	border: none;
+	border-radius: 10px;
+	font-family: aharoni;
+	font-weight: bold;
+	
+}
+#b-Admin:hover
+{
+	background-color: black;
+	color: white;
+	width:152px;
+}
+#b-Vendedores
+{
+	
+	margin-left:90px;
+	width: 140px;
+	padding: 25px;
+	color: blue;
+	background-color: gray;
+	border: none;
+	border-radius: 10px;
+	font-family: aharoni;
+	font-weight: bold;
+	
+}
+#b-Vendedores:hover
+{
+	background-color: black;
+	color: white;
+	width:152px;
+}
+#b-Clientes
+{
+	
+	margin-left:90px;
+	width: 140px;
+	padding: 25px;
+	color: blue;
+	background-color: gray;
+	border: none;
+	border-radius: 10px;
+	font-family: aharoni;
+	font-weight: bold;
+	
+}
+#b-Clientes:hover
+{
+	background-color: black;
+	color: white;
+	width:152px;
+}	
+#b-Productos
+{
+	
+	margin-left:90px;
+	width: 140px;
+	padding: 25px;
+	color: blue;
+	background-color: gray;
+	border: none;
+	border-radius: 10px;
+	font-family: aharoni;
+	font-weight: bold;
+	
+}
+#b-Productos:hover
+{
+	background-color: black;
+	color: white;
+	width:152px;
+}
+#b-Reportes
+{
+	
+	margin-left:90px;
+	width: 140px;
+	padding: 25px;
+	color: blue;
+	background-color: gray;
+	border: none;
+	border-radius: 10px;
+	font-family: aharoni;
+	font-weight: bold;
+	
+}
+#b-Reportes:hover
+{
+	background-color: black;
+	color: white;
+	width:152px;
+}
+#b-Cerrar
+{
+	
+	margin-left:90px;
+	width: 140px;
+	padding: 25px;
+	color: blue;
+	background-color: gray;
+	border: none;
+	border-radius: 10px;
+	font-family: aharoni;
+	font-weight: bold;
+	
+}
+#b-Cerrar:hover
+{
+	background-color: black;
+	color: white;
+	width:152px;
+}
+#b-Salir2
+{
+	
+	margin-left:90px;
+	width: 140px;
+	padding: 25px;
+	color: blue;
+	background-color: gray;
+	border: none;
+	border-radius: 10px;
+	font-family: aharoni;
+	font-weight: bold;
+	
+}
+#b-Salir2:hover
+{
+	background-color: black;
+	color: white;
+	width:152px;
+
+}
+
+
+/*INGRESAR ADMINISTRADOR*/
+#ingresar_admin
+{
+	margin-top: 7em;
+	margin-left:  auto;
+	margin-right: auto;
+	width: 40em;
+	height: 47em;
+	background: url(../images/grey_wash_wall.png); 
+	border-radius: 25px;
+}
+.indicaciones
+{
+	margin-bottom: 10px;
+	margin-left: 200px;
+	font-family: aharoni;
+	font-weight: bold;
+	color: white;
+
+}
+.text_box
+{
+	display: block;
+	margin:0 0 10px 100px;
+	width: 200px;
+	padding: 10px 0 5px 10px;
+	
+}
+
+#b-Guardar
+{
+	margin-left: 150px;
+	width: 100px;
+	padding: 5px;
+	color: blue;
+	background-color: black;
+	border: none;
+	border-radius: 5px;
+	-webkit-transition: background-color, 1s;
+	-webkit-transition:width .5;
+}
+#b-Guardar:hover
+{
+	background-color: gray;
+	color: white;
+}
+#b-Salir
+{
+	margin-left: 150px;
+	width: 100px;
+	padding: 5px;
+	color: blue;
+	background-color: black;
+	border: none;
+	border-radius: 5px;
+	-webkit-transition: background-color, 1s;
+	-webkit-transition:width .5;
+}
+#b-Salir:hover
+{
+	background-color: gray;
+	color: white;
+}
+.text_box:focus
+{
+	width:160px; 
+}
+/*ELIMINAR ADMINISTRADOR*/
+#eliminar_admin
+{
+	margin-top: 7em;
+	margin-left:  auto;
+	margin-right: auto;
+	width: 40em;
+	height: 37em;
+	background:url(../images/grey_wash_wall.png); 
+	border-radius: 25px;
+}
+.indicaciones
+{
+	margin-bottom: 10px;
+	margin-left: 200px;
+	font-family: aharoni;
+	font-weight: bold;
+	color: white;
+
+}
+.text_box
+{
+	display: block;
+	margin:0 0 10px 100px;
+	width: 200px;
+	padding: 10px 0 5px 10px;
+	
+}
+
+#b-Guardar
+{
+	margin-left: 150px;
+	width: 100px;
+	padding: 5px;
+	color: blue;
+	background-color: black;
+	border: none;
+	border-radius: 5px;
+	-webkit-transition: background-color, 1s;
+	-webkit-transition:width .5;
+}
+#b-Guardar:hover
+{
+	background-color: gray;
+	color: white;
+}
+#b-Salir
+{
+	margin-left: 150px;
+	width: 100px;
+	padding: 5px;
+	color: blue;
+	background-color: black;
+	border: none;
+	border-radius: 5px;
+	-webkit-transition: background-color, 1s;
+	-webkit-transition:width .5;
+}
+#b-Salir:hover
+{
+	background-color: gray;
+	color: white;
+}
+
+#b-Buscar
+{
+	margin-left: 400px;
+	width: 100px;
+	padding: 5px;
+	color: blue;
+	background-color: black;
+	border: none;
+	border-radius: 5px;
+	-webkit-transition: background-color, 1s;
+	-webkit-transition:width .5;
+}
+#b-Buscar:hover
+{
+	background-color: gray;
+	color: white;
+}
+.text_box:focus
+{
+	width:160px; 
+}
+
+/*CAMBIAR ADMINISTRADOR*/
+
+#cambiar_admin
+{
+	margin-top: 7em;
+	margin-left:  auto;
+	margin-right: auto;
+	width: 40em;
+	height: 49em;
+	background:url(../images/grey_wash_wall.png); 
+	border-radius: 25px;
+}
+.indicaciones
+{
+	margin-bottom: 10px;
+	margin-left: 200px;
+	font-family: aharoni;
+	font-weight: bold;
+	color: white;
+
+}
+.text_box
+{
+	display: block;
+	margin:0 0 10px 100px;
+	width: 200px;
+	padding: 10px 0 5px 10px;
+	
+}
+
+#b-Guardar
+{
+	margin-left: 150px;
+	width: 100px;
+	padding: 5px;
+	color: blue;
+	background-color: black;
+	border: none;
+	border-radius: 5px;
+	-webkit-transition: background-color, 1s;
+	-webkit-transition:width .5;
+}
+#b-Guardar:hover
+{
+	background-color: gray;
+	color: white;
+}
+#b-Salir
+{
+	margin-left: 150px;
+	width: 100px;
+	padding: 5px;
+	color: blue;
+	background-color: black;
+	border: none;
+	border-radius: 5px;
+	-webkit-transition: background-color, 1s;
+	-webkit-transition:width .5;
+}
+#b-Salir:hover
+{
+	background-color: gray;
+	color: white;
+}
+#b-Buscar
+{
+	margin-left: 400px;
+	width: 100px;
+	padding: 5px;
+	color: blue;
+	background-color: black;
+	border: none;
+	border-radius: 5px;
+	-webkit-transition: background-color, 1s;
+	-webkit-transition:width .5;
+}
+#b-Buscar:hover
+{
+	background-color: gray;
+	color: white;
+}
+.text_box:focus
+{
+	width:160px; 
+}
